@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>간단한 퀴즈 애플리케이션</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 1. 퀴즈 앱의 제목을 추가하세요 (예: <h1>간단한 퀴즈</h1>) -->
+    <header>
+      <h1>넌센스 퀴즈 쇼! 헐~퀴즈쇼!</h1>
+    </header>
+    <!-- 2. 퀴즈 컨테이너를 만드세요 (div 요소 사용, id 부여) -->
+    <div id="quizContainer">
+      <!-- 3. 질문을 표시할 요소를 추가하세요 (예: <h2 id="question"></h2>) -->
+      <div id="question">
+        <h2>테스트</h2>
+      </div>
+      <!-- 4. 선택지를 담을 컨테이너를 만드세요 (div 요소 사용, id 부여) -->
+      <div id="answer"></div>
+
+      <!-- 6. 결과를 표시할 요소를 추가하세요 (예: <p id="result"></p>) -->
+      <div>
+        <p id="result"></p>
+      </div>
+      <div id="btnSection">
+        <button type="button" id="next">다음 퀴즈로!</button>
+        <button type="button" id="previous">이전 퀴즈로!</button>
+        <button type="button" id="hint">힌트 요청!</button>
+      </div>
+    </div>
+
+    <script src="script_정답_1차_개선.js"></script>
+  </body>
+</html>
